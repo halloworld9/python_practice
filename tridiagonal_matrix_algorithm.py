@@ -1,6 +1,3 @@
-from math import frexp
-
-
 def check_matrix(matrix): #условия найденные в интернете
     height = len(matrix)
     f = False

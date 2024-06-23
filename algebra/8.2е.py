@@ -6,7 +6,6 @@ a1 = [k, 1, 1, 1]
 a2 = [1, k, 1, 1]
 a3 = [1, 1, k, 1]
 m = Matrix([a1, a2, a3])
-print("Echelon form")
 print(solve_linear_system(m, x1, x2, x3))
 echelon = m.echelon_form()
 for i in solve(echelon.row(-1)):
